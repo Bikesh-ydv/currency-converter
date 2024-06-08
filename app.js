@@ -1,3 +1,4 @@
 import ReactDOM from "react-dom"
+import Currency from "./src/Currency";
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<h2>I am header</h2>);
+root.render(<Currency/>);
